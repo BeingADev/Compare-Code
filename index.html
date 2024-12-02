@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Code: Plugin</title>
+    <link rel="stylesheet" href="all.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header>
+        <strong>Compare Code</strong>
+    </header>
+    <div class="row highlight">
+        <p>Get unique Code when you have a two files have not a same line of code</p>
+    </div>
+    <div class="row">
+        <textarea id="code1" placeholder="Paste first code here"></textarea>
+        <textarea id="code2" placeholder="Paste second code here"></textarea>
+        <button onclick="compareCode()">Compare</button>
+    </div>
+    <div id="result"></div>    
+</body>
+</html>
